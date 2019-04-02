@@ -7,13 +7,7 @@ Test env for FreeBSD Tezos compatibility
 ```
 vagrant box add freebsd/FreeBSD-12.0-STABLE
 vagrant up 
-vagrant ssh
-```
-
-if it fails:
-
-```
-vagrant up --no-destroy-on-error
+vagrant provision # this will show you the realtime log
 ```
 
 

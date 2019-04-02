@@ -1,2 +1,2 @@
 #portsnapfetch extract update
-pkg_install ocaml automake git opam
+pkg install -y ocaml automake git ocaml-opam
